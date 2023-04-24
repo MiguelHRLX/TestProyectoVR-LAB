@@ -32,7 +32,7 @@ public class Cell : MonoBehaviour
     {
         Vector3 initialDirection = gameObject.transform.right;
         rigidbody.velocity = (rigidbody.velocity+VarianceVelocity(gameObject)).normalized* velocity;
-        // gameObject.transform.right = rigidbody.velocity.normalized;
+        //gameObject.transform.right = rigidbody.velocity.normalized;
         // if (collision != null) Debug.Log("colisión");
         //if (collision.transform.CompareTag("Finish")) Debug.Log("Vena");
 
