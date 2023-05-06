@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - impulce
+  - Wall
   layers:
   - Default
   - TransparentFX
