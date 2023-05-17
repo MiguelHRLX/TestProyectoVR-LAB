@@ -9,7 +9,7 @@ public class ObjectPool : MonoBehaviour
     private List<GameObject> cellPool;
     private int currentCellIndex = 0;
     public GameObject cells;
-
+    public float radio=2f;
     void Start()
     {
         cellPool = new List<GameObject>();
@@ -31,7 +31,7 @@ public class ObjectPool : MonoBehaviour
 
         if (cell != null)
         {
-            cell.transform.position = transform.position;
+            cell.transform.position = randPositionArea();
             cell.SetActive(true);
 
         }
@@ -52,6 +52,11 @@ public class ObjectPool : MonoBehaviour
         } while (initialIndex < poolSize);
 
         return null;
+    }
+    private Vector3 randPositionArea()
+    {
+        float ang = Random.Range(0f, 360f);
+        return transform.position + (transform.up * Mathf.Sin(ang) + transform.forward * Mathf.Cos(ang)).normalized * radio;
     }
 
 }

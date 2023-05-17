@@ -13,10 +13,10 @@ GameObject:
   - component: {fileID: 8123709909903917236}
   - component: {fileID: 8123709909903917239}
   - component: {fileID: 8123709909903917238}
-  - component: {fileID: 8123709909903917193}
+  - component: {fileID: 2480416909912101084}
   m_Layer: 0
   m_Name: Cell
-  m_TagString: Untagged
+  m_TagString: Objet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -115,7 +115,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &8123709909903917193
+--- !u!114 &2480416909912101084
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - impulce
   - Wall
+  - Objet
   layers:
   - Default
   - TransparentFX
