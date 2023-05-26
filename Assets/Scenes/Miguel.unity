@@ -1558,7 +1558,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -2054706794294584548, guid: 45d7cba3087ffd74d92cdd0ad5b4c768, type: 3}
+  - {fileID: 2100000, guid: e44d67f74a5ab4c42be430ddfc2eae63, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2154,7 +2154,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cellPrefab: {fileID: 2480416909912101084, guid: 9c131a221b7541b4bada6029c3607534, type: 3}
   poolSize: 20
-  fireRate: 0.3
+  fireRate: 0.1
   radio: 1
 --- !u!1001 &997482074
 PrefabInstance:
@@ -3752,7 +3752,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -2054706794294584548, guid: 45d7cba3087ffd74d92cdd0ad5b4c768, type: 3}
+  - {fileID: 2100000, guid: e44d67f74a5ab4c42be430ddfc2eae63, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
